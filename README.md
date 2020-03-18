@@ -83,6 +83,14 @@ I'm glad you're interested to use the app!
 
 If you'd like to provide a few dollars to help with server costs and database hosting, I'd be psyched! This will help with the longevity of the project and also help ensure all your data collections can get a nice back up every once in a while. 
 
+| feature | cost | 
+| :--- | --- | 
+| Domain hosting for "streetview-mapper.org" | `$20/year` | 
+| Server Hosting | `$7/month` or `$84/month` | 
+| Database Services | `TBD` | 
+
+In total I might expect a conservative estimate: ~**$120.00**/year
+
 Feel free to reach out via email if you'd like to support the project: joeyklee@nyu.edu
 
 
