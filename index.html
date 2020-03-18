@@ -7,13 +7,29 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <!-- Edit on Github -->
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
 </head>
 <body>
   <div id="app"></div>
   <script>
+    const config = {
+        editOnGithub: {
+          docBase: 'https://github.com/joeyklee/streetview-mapper-docs/tree/master/',
+          docEditBase: 'https://reference.streetview-mapper.org',
+          title: 'Edit document',
+        },
+      };
     window.$docsify = {
       name: 'Streetview Mapper Reference',
-      repo: ''
+      repo: 'https://github.com/joeyklee/streetview-mapper-docs/tree/master/',
+      // loadSidebar: true,
+      maxLevel: 3,
+      auto2top: true,
+      routerMode: 'hash', // default: 'hash'
+      plugins: [
+          EditOnGithubPlugin.create(config.editOnGithub.docBase, null, config.editOnGithub.title),
+        ],
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
