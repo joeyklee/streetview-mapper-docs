@@ -1,10 +1,57 @@
-# Reference - Streetview Mapper 
-
-> Streetview Mapper is a simple tool to allow curious mappers (like you!) to take «snapshots» of the world through Google Streetview. These snapshots are stored in a database to allow users to revisit what things they've found remarkable, noteworthy, strange, weird, and/or compelling. 
+# Welcome to the Streetview Mapper Documentation Page
+> Streetview Mapper is a simple tool to allow curious mappers (like you!) to take «snapshots» of the world through Google Streetview. These snapshots are stored in a database to allow users to revisit what things they've found remarkable, noteworthy, strange, funny, weird, and compelling. 
 
 ![ITP on Broadway](assets/img/main-image.png)
 
 Hello! If you're here, you're probably looking to get started using the [Streetview Mapper](https://streetview-mapper.org). If so, you're in the right place!
+
+## About
+
+[Streetview Mapper](https://streetview-mapper.org/) is a simple tool to allow curious mappers (like you!) to take «snapshots» of the world through Google Streetview. These snapshots are stored in a database to allow people to revisit what things they've found remarkable, noteworthy, strange, funny, weird, and compelling in one way or another. 
+
+This is a project by [Joey Lee](https://jk-lee.com) built this during the 2020 covid-19 pandemic.
+
+For his course «All Maps Lie» at New York University's Interactive Telecommunication Program (ITP), Joey's students were supposed to perform their own «Data Walks», physically collecting data about the urban environment and infrastructure. However given the need to stay indoors, it was necessary to find other mechanisms to observe the world, explore spatial media, and practice paying attention. This tool was developed out of this need to provide other ways to explore and observe the world.
+
+Please report bugs or issues on Github. Thank you!
+* → [joeyklee/streetview-mapper-docs](https://github.com/joeyklee/streetview-mapper-docs/issues). 
+
+### How it works
+
+#### Capture "Snapshots"
+
+![Mapping a feature](assets/img/about__map.png)
+Using the [Streetview Mapper](https://streetview-mapper.org/), you can "travel around" using Google's Streeview service and take a snapshot of what you see. The geolocation and the details of the Google Streetview scene are stored in addition to any description or notes you add to the submission. 
+
+
+#### Review
+
+![Reviewing collected data](assets/img/about__review.png)
+
+Using the Streetview Mapper Dashboard, you can see all the snapshots you've made. You can click on the markers to reveal the snapshot you made and export your data to [GeoJSON]() - an open geospatial data format - to use in other applications and projects. 
+
+In the future, more features might be added to do more extensive data editing, filtering and grouping, and general data exploration, but for now, the dashboard is a simple interface to see what street views you've collected.
+
+
+### Additional Reflections 
+
+On one hand, Streetview is just tool. It allows people to remotely «visit» a place they've never been to. It gives people a chance to familiarize themselves with a «blank spot on the map» and to get a better sense of key landmarks that might aid in navigating in a new place. It provides an incredible service, allowing us to «go into the map» and see the world through the lenses of Google Users and the Google Streetview Car and Backpack. 
+
+On the other hand, Google Streetview provides one of the most extensive windows into urban life. Using Streetview, people can see places near and far. People can see things they may have never seen before. And perhaps most interesting, people can see in a way that is beyond our own human capabilities (360 views). It is in these *ways of seeing* where there's so much to explore. Many Streetview scenes are seemingly mundane. Many scenes are of people walking on the sidewalk, cars stuck in traffic, trees and grass, and birds flying in the sky. Aside from the occasional Streetview performance (from people who notice that they are being photographed), what Streetview shows might seem pretty unremarkable; it's basically what we might see on an "average" walk, drive, or bike-ride. What Streetview prompts us to explore is *what is average*? Is an average day a beautiful sunny day or is it rather cloudy, overcast? Is the "average" something to be desired? Is it that the "average" provides the most utility? By capturing the "average" what are we leaving out? 
+
+By exploring Streetview and using a tool to collect the "experiences" of many streetview mappers, I'm curious to see what amusing/critical/surprising/shared/unique/playful/heartwarming/shocking/hopeful observations might start to emerge. I hope this tool can provide a means to unpack what Streetview means to us and how it shapes how we see the world.
+
+Lastly, since we're all stuck inside right now, I hope this might be a means to be #mappingInTheTimeOfCorona. 
+
+
+## Acknowledgements
+
+Many thanks to NYU's ITP Program, the ITP Community, and the [Humans-in-Residence Fellowship](https://tisch.nyu.edu/itp/itp-people/faculty/somethings-in-residence-sirs). 
+
+Special thanks to my students in «All Maps Lie 2020».
+
+The project is built with ❤️ by [Joey Lee](https://jk-lee.com) using [Vue.js](https://vuejs.org/), the GoogleMaps API, Node.js/Express.js, and MongoDB. The service is served up using [Netlify](https://www.netlify.com/), Heroku, and MongoDB Atlas.
+
 
 ## Signup
 
